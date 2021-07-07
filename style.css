@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+/* DESAFIO 00: Adicione o logo DASA na navbar. Dimensione o tamanho de acordo com o projeto XD. */
+/* DESAFIO 01: Crie as âncoras do seu site na navbar. */
+
+nav {
+    background-color: #000F40;
+    height: 120px;
+}
+
+/* 
+DESAFIO 02: Coloque uma imagem de fundo no header.
+DESAFIO 03: Crie o título do header e o botão "clique e assista"
+*/
+
+header {
+    background-color: #C5EEFF;
+    height: 1080px;
+}
+
+/* 
+DESAFIO 04: Adicione a imagem de coração ao fundo da sessão.
+DESAFIO 05: Crie na section o título, o parágrafo e o botão Saiba Mais. 
+DESAFIO 06: Adicione a foto à direita e ajuste os espaçamentos da sessão. 
+*/
+
+section {
+    background-color: white;
+    height: 1080px;
+}
+
+/* 
+DESAFIO 07: Adicione o título "últimas publicações" 
+DESAFIO 08: Crie a primeira publicação. (dica: coloque a imagem e o parágrafo na mesma div, depois é só duplicar para fazer o restante) 
+*/
+
+#publications {
+    background-color: #EEFAFF;
+    height: 1080px;
+}
+/* 
+DESAFIO 09: Adicione o texto do footer.
+DESAGIO 10: Adicione as imagens das redes sociais. */
+
+footer {
+    background-color: #000F40;
+    height: 539px;
+}
