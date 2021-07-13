@@ -5,18 +5,26 @@ body {
 /* DESAFIO 01: Crie as âncoras do seu site na navbar. */
 
 nav {
+    align-items: center;
     background-color: #000F40;
     height: 120px;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
 }
 
 a {
     color: white;
+    font: normal normal bold 20px/27px Segoe UI;
     text-decoration: none;
 }
 
+#divAncoras {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
 
 /* 
 DESAFIO 02: Coloque uma imagem de fundo no header.
@@ -24,8 +32,39 @@ DESAFIO 03: Crie o título do header e o botão "clique e assista"
 */
 
 header {
-    background-color: #C5EEFF;
+    background-image: url("./images/imagem_fundo.png");
+    background-position: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 1080px;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    font: normal normal bold 20px/27px Segoe UI;
+    height: 69px;
+    width: 214px;
+}
+
+h1 {
+    color: white;
+    font: normal normal bold 120px/123px Segoe UI;
+    text-align: center;
+    width: 900px;
+}
+
+span {
+    color: #C5EEFF;
 }
 
 /* 
@@ -34,17 +73,39 @@ DESAFIO 05: Crie na section o título, o parágrafo e o botão Saiba Mais.
 DESAFIO 06: Adicione a foto à direita e ajuste os espaçamentos da sessão. 
 */
 
-section {
-    background-color: white;
+#paciente {
+    background-image: url("./images/coracao.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
     height: 1080px;
 }
+
+#paciente div {
+    /* background-color: rebeccapurple; */
+    height: 100%;
+    width: 35%;
+}
+
+#fotoPaciente {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+#fotoPaciente img {
+    width: 800px;
+}
+
 
 /* 
 DESAFIO 07: Adicione o título "últimas publicações" 
 DESAFIO 08: Crie a primeira publicação. (dica: coloque a imagem e o parágrafo na mesma div, depois é só duplicar para fazer o restante) 
 */
 
-#publications {
+#conteudosBlog {
     background-color: #EEFAFF;
     height: 1080px;
 }
